@@ -16,14 +16,9 @@ public class Arrays {
         System.out.println();
         forEachLoopDouble(doubleArray);
         System.out.println();
-
-
-
-
     }
 
     public static void iterativeLoop(int[] array) {
-
         for (int i = 0; i<array.length; i++) {
             System.out.print(array[i] + " ");
         }
@@ -36,7 +31,6 @@ public class Arrays {
     }
 
     public static void iterativeLoopDouble(int[][] array) {
-
         for (int i = 0; i<array.length; i++) {
             for (int j = 0; j<array[i].length; j++) {
                 System.out.print(array[i][j] + " ");
@@ -53,7 +47,6 @@ public class Arrays {
             System.out.println();
         }
     }
-
 }
 
 
